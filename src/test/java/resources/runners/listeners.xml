@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="testsuite" verbose="1">
+<listeners>
+    <listener class-name="com.softwaretestingboard.magento.TestNG.TestNgListeners"></listener>
+</listeners>
+    <test name="Login Test">
+        <classes>
+            <class name="com.softwaretestingboard.magento.TestNG.TestNgListeners"></class>
+        </classes>
+    </test>
+</suite>
